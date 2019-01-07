@@ -13,7 +13,8 @@ body {
     top: 0px;
     width: 100%;
     height: 82px;
-    background-color: blue;
+    /* background-color: blue; */
+    background-color:rgba(70,127,215,1);
 }
 
 .underBarStyle{
