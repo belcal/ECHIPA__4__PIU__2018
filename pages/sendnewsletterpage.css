@@ -1,0 +1,48 @@
+.formContainer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.title{
+    font-size: 30;
+    position: absolute;
+    font-weight: 600;
+    top: 110px;
+    left: 30px;
+}
+
+.newsLetterStyle{
+    position: absolute;
+    height: 400px;
+    width: 80%;
+    top: 190px;
+    left: 30px;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 0;
+   padding-left: 0;
+   font-size: 18;
+}
+
+.cancel{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    top: 600px;
+    left: 450px;
+    background-color: #FF6666;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.send{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    top: 600px;
+    left: 640px;
+    background-color: green;
+    border-radius: 10px;
+    cursor: pointer;
+}

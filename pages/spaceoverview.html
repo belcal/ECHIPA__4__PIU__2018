@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="homepage.css">
-
+<link rel="stylesheet" href="spaceoverview.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../scripts/spaceoverview.js"></script>
+<!-- <script type="text/javascript" src="../assets/data.json"></script> -->
+<script type="text/javascript" language="javascript" src="../assets/data.json"></script>
 <!DOCTYPE html>
 <html>
 
@@ -11,18 +15,18 @@
 <body>
     <div class="homePageWrapper">
         <div class="topBarSytle">
-            <a href="./homepage.html">
-                <img src="../assets/rocket.svg" class="rocketBanner">
-            </a>
+            <img src="../assets/rocket.svg" class="rocketBanner">
             <div class="bannerText">
                 WORK&SHARE
             </div>
-            <img src="../assets//home.svg" class="homeButton">
+            <a href="./homepage.html">
+                <img src="../assets//home.svg" class="homeButton">
+            </a>
             <button class="signOutButtonStyle">SIGN OUT</button>
         </div>
         <div class="underBarStyle">
             <a href="./spaceoverview.html">
-                <button class="spaceViewStyle ">
+                <button class="spaceViewStyle">
                     <img src="../assets//dots.svg" class="dotsStyle">
                     <p class="spaceViewText">Situatia spatiului</p>
                 </button>
@@ -34,11 +38,9 @@
                 </button>
             </a>
         </div>
-        <div class="bannerWrapperStyle">
-            <img src="../assets/homepagebanner.jpg" class="homeImage">
-            <div class="searchForm">
-                <input type="text" name="workspacekey" placeholder="Unde se afla spatiul pe care il cautati?" class="seachInputStyle">
-                <button class="searchButton">Cauta</button>
+        <div class="seatGridStyle">
+            <div id="tableGrid" class="seatContainerStyle">
+
             </div>
         </div>
     </div>

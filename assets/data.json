@@ -1,0 +1,69 @@
+var tableData = {
+    "tables": [
+        {
+            "tableId": 1,
+            "empty": true
+        },
+        {
+            "tableId": 2,
+            "empty": true
+        },
+        {
+            "tableId": 3,
+            "empty": false
+        },
+        {
+            "tableId": 4,
+            "empty": true
+        },
+        {
+            "tableId": 5,
+            "empty": false
+        },
+        {
+            "tableId": 6,
+            "empty": false
+        },
+        {
+            "tableId": 7,
+            "empty": false
+        },
+        {
+            "tableId": 8,
+            "empty": true
+        },
+        {
+            "tableId": 9,
+            "empty": true
+        },
+        {
+            "tableId": 10,
+            "empty": true
+        },
+        {
+            "tableId": 11,
+            "empty": false
+        },
+        {
+            "tableId": 12,
+            "empty": false
+        },
+        {
+            "tableId": 13,
+            "empty": true
+        },
+        {
+            "tableId": 14,
+            "empty": true
+        },
+        {
+            "tableId": 15,
+            "empty": true
+        },
+        {
+            "tableId": 16,
+            "empty": true
+        }
+
+    ]
+};
