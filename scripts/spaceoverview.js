@@ -8,6 +8,20 @@ $(document).ready(function () {
             tableType = "redBox";
         }
         
-        $("#tableGrid").append('<div class="genericBox ' + tableType + '">' + tables[x].tableId  + '</div>');
+
+
+        $("#tableGrid").append('<div class="genericBox ' + tableType + '" id=' + tables[x].tableId + '>' + tables[x].tableId  + '</div>');
+        $("#" + tables[x].tableId).click(function(event){
+            var idUser = null;
+            var tables = tableData.tables;
+            for (var x in tables){
+                if ( tables[x].tableId === parseInt(event.target.id)){
+                    idUser = tables[x].userId;
+                }
+            }
+            if (idUser !== -1){
+                window.location.href = "../pages/userdetailspage.html?id="+ idUser;
+            }
+        });
     }
 });

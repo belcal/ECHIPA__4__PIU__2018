@@ -1,0 +1,76 @@
+.userProfile{
+    text-align: center;
+}
+
+body{
+    background-color: #D3D3D3;
+}
+
+.profilePic{
+    max-width: 70%;
+    max-height: 300px;
+    margin-top: 150px;
+    border-radius: 50px;
+    
+}
+
+.name{
+    font-weight: 600;
+    font-size:25;
+    color:blue;
+}
+
+.username{
+    font-weight: 300;
+    font-size: 12;
+}
+
+.phone{
+    font-weight: 500;
+    font-size: 15;
+}
+
+.email{
+    font-weight: 500;
+    font-size: 15;
+}
+
+.cancelB{
+    height: 40px;
+    width: 120px;
+    /* top: 600px;
+    left: 450px; */
+    background-color: #FF6666;
+    border-radius: 10px;
+    cursor: pointer;
+    color:beige;
+    font-weight: 600;
+}
+
+.sendB{
+    height: 40px;
+    width: 120px;
+    /* top: 600px;
+    left: 450px; */
+    background-color: green;
+    border-radius: 10px;
+    cursor: pointer;
+    color:beige;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-right: 65px;
+}
+
+.reportContainer{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 80%;
+    display: none;
+}
+
+.reportText{
+    height: 300px;
+    width: 350px;
+    margin-left: -100px;
+}

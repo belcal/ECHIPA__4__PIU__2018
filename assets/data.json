@@ -2,68 +2,133 @@ var tableData = {
     "tables": [
         {
             "tableId": 1,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 2,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 3,
-            "empty": false
+            "empty": false,
+            "userId": 0,
+            
         },
         {
             "tableId": 4,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 5,
-            "empty": false
+            "empty": false,
+            "userId": 1,
         },
         {
             "tableId": 6,
-            "empty": false
+            "empty": false,
+            "userId": 2,
         },
         {
             "tableId": 7,
-            "empty": false
+            "empty": false,
+            "userId": 3,
         },
         {
             "tableId": 8,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 9,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 10,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 11,
-            "empty": false
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 12,
-            "empty": false
+            "empty": false,
+            "userId": 4,
         },
         {
             "tableId": 13,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 14,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 15,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         },
         {
             "tableId": 16,
-            "empty": true
+            "empty": true,
+            "userId": -1,
         }
 
-    ]
+    ],
+
+    "users" : [
+        {
+            "id": 0,
+            "username": "AndreiOprean",
+            "password": "1234",
+            "realName": "Andrei Oprean",
+            "phone": "0733932551",
+            "email": "mail@mail.com",
+            "pic": "andrei.jpg"
+        },
+        {
+            "id": 1,
+            "username": "IonPop",
+            "password": "pass",
+            "realName": "Ioan Pop",
+            "phone": "0723432371",
+            "email": "mail@gmail.com",
+            "pic": "ion.jpg",
+        },
+        {
+            "id": 2,
+            "username": "workwork",
+            "password": "pass1",
+            "realName": "Maria Vasilescu",
+            "phone": "0725472672",
+            "email": "mail@yahoo.com",
+            "pic": "maria.jpg"
+        },
+        {
+            "id": 3,
+            "username": "wowowo",
+            "password": "pass12",
+            "realName": "Mihai Mihailescu",
+            "phone": "0715372512",
+            "email": "mihai@yahoo.com",
+            "pic": "mihai.jpg",
+        },
+        {
+            "id": 4,
+            "username": "awawawaw",
+            "password": "pass123",
+            "realName": "Mircea Mircescu",
+            "phone": "0712172518",
+            "email": "mircea@yahoo.com",
+            "pic": "mircea.jpg"
+        }
+    ] 
 };

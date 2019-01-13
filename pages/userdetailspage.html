@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="homepage.css">
-<link rel="stylesheet" href="spaceoverview.css">
+<link rel="stylesheet" href="userdetailspage.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="../scripts/spaceoverview.js"></script>
+<script src="../scripts/userdetailspage.js"></script>
 <!-- <script type="text/javascript" src="../assets/data.json"></script> -->
 <script type="text/javascript" language="javascript" src="../assets/data.json"></script>
 <!DOCTYPE html>
@@ -15,7 +15,9 @@
 <body>
     <div class="homePageWrapper">
         <div class="topBarSytle">
-            <img src="../assets/rocket.svg" class="rocketBanner">
+            <a href="./homepage.html">
+                <img src="../assets/rocket.svg" class="rocketBanner">
+            </a>
             <div class="bannerText">
                 WORK&SHARE
             </div>
@@ -28,7 +30,7 @@
         </div>
         <div class="underBarStyle">
             <a href="./spaceoverview.html">
-                <button class="spaceViewStyle">
+                <button class="spaceViewStyle ">
                     <img src="../assets//dots.svg" class="dotsStyle">
                     <p class="spaceViewText">Situatia spatiului</p>
                 </button>
@@ -40,10 +42,17 @@
                 </button>
             </a>
         </div>
-        <div class="seatGridStyle">
-            <div id="tableGrid" class="seatContainerStyle">
-
-            </div>
+        <div class="userProfile">
+            <img src="../assets/andrei.jpg" class="profilePic" id="profpic">
+            <p id="nameField" class="name">Andrei Oprean</p>
+            <p id="userField" class="username">AndreiOprean</p>
+            <p id="phone" class="phone">0733935930</p>
+            <p id="mail" class="email">mail@mail.com</p>
+            <button id="reportButton" class="cancelB">Raporteaza problema</button>
+        </div>
+        <div class="reportContainer">
+            <textarea name="workspacekey" class="reportText"></textarea>
+            <button id="sendButt" class="sendB">Trimite raport</button>
         </div>
     </div>
 </body>
