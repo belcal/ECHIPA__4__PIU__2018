@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+
+.checkmark{
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 100px;
+}
+
+.messagewrap{
+    height: 100px;
+    width: 1000px;
+    background-color: #D3D3D3;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.messageCon{
+    font-size: 50;
+    font-weight: 600;
+}
+
+.returnbutton{
+    margin-top: 50px;
+    background-color: rgba(70,127,215,1);
+    width: 200px;
+    height: 52px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
