@@ -1,0 +1,83 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" href="clujspacepage.css">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <title>Common space app</title>
+</head>
+
+<body>
+    <div class="homePageWrapper">
+        <div class="topBarSytle">
+            <a href="./clienthomepage.html">
+                <img src="../assets/rocket.svg" class="rocketBanner">
+            </a>
+            <div class="bannerText">
+                WORK&SHARE
+            </div>
+			<a href="./clientmainpage.html">
+				<img src="../assets//home.svg" class="homeButton">
+			</a>
+            <a href="./loginpage.html">
+                <button class="signOutButtonStyle">SIGN OUT</button>
+            </a>
+        </div>
+        <div class="underBarStyle">
+		<h1>CO - ERA</h1>
+		<h2>Disponibilitate: </h2>
+		<h3>LUNI - VINERI: 8:30am - 7:00pm;  SAMBATA - DUMINICA: Inchis;</h3>
+        </div>
+		<div  class="coSpaceStyle">
+			<div class="w3-content w3-section" style="max-width:100%;background-color:white">
+				<img class="mySlides" src="../assets/images/imgCoera.jpg">
+				<img class="mySlides" src="../assets/images/img2Coera.png">
+				<img class="mySlides" src="../assets/images/img3Coera.png">
+			</div>
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 2000);
+				}
+			</script>
+			<h1>DETALII</h1>
+			<div class="p1SpaceStyle">
+				<h3>PREZENTARE</h3>
+				<p>Acesta este un spatiu care se afla la ultimul nivel al unei cladiri de birouri, aproape de Parcul Central din Cluj.
+		Este un spatiu deschis de aproximativ 70 de metri patrati si dispune de doua sali de intalnire, mai mici.
+		Spatiu are lumina naturala, aer conditionat, precum si alte facilitati.
+		Conexiunea la internet este de mare viteza, cu o latime de banda garantata de 150Mbps si prezinta un sistem de back-up pentru internet.</p>
+			</div>
+			<div class="p2SpaceStyle">
+				<h3>ADRESA</h3>
+				<img src="../assets//placeholder.svg" class="placeIcon">
+				<p>1 / 2, Strada Giuseppe Garibaldi 18, Cluj-Napoca, Romania</p>
+				<h3>INFORMARE</h3>
+				<p>Pentru mai multe informatii trimiteti un email la adresa: admin@gmail.com !</p>
+			</div>
+			<div class="p3SpaceStyle">
+				<h3>REZERVARE</h3>
+				<p>10 EUR - ZI</p>
+				<p>45 EUR - SAPT</p>
+				<p>180 EUR - LUNA</p>
+			</div>
+			<div class="butSpaceStyle">
+				<a href="./formrezervare.html"><button type="submit">Rezerva</button></a>
+			</div>
+		</div>
+    </div>
+</body>
+
+</html>

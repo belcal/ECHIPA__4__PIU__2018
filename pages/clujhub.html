@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="clujspacepage.css">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <title>Common space app</title>
+</head>
+
+<body>
+    <div class="homePageWrapper">
+        <div class="topBarSytle">
+            <a href="./clienthomepage.html">
+                <img src="../assets/rocket.svg" class="rocketBanner">
+            </a>
+            <div class="bannerText">
+                WORK&SHARE
+            </div>
+			<a href="./clientmainpage.html">
+				<img src="../assets//home.svg" class="homeButton">
+			</a>
+            <a href="./loginpage.html">
+                <button class="signOutButtonStyle">SIGN OUT</button>
+            </a>
+        </div>
+        <div class="underBarStyle">
+		<h1>Cluj HUB</h1>
+		<h2>Disponibilitate: </h2>
+		<h3>LUNI - VINERI - SAMBATA - DUMINICA: 9:00am - 7:00pm;</h3>
+        </div>
+		<div  class="coSpaceStyle">
+			<div class="w3-content w3-section" style="max-width:100%;background-color:white">
+				<img class="mySlides" src="../assets/images/img1ClujHub.jpg">
+				<img class="mySlides" src="../assets/images/img2ClujHub.png">
+				<img class="mySlides" src="../assets/images/img3ClujHub.png">
+			</div>
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 2000);
+				}
+			</script>
+		<h1>DETALII</h1>
+		<div class="p1SpaceStyle">
+		<h3>PREZENTARE</h3>
+		<p>Acesta este un spatiu care aduce impreuna oameni din medii diferite si din industria profesionala.
+		Aici, la Cluj HUB, este locul in care comunitatea lucreaza impreuna, in loc sa se lupte unul impotriva celuilalt.
+		Exista multa productivitate, iar rezultatele obtinute au un impact pozitiv asupra mediul inconjurator.
+		Resurse valoroase pot fi deseori descoperite prin conlucrare intr-un mediu precum Cluj HUB.</p>
+		</div>
+		<div class="p2SpaceStyle">
+		<h3>INFORMARE</h3>
+		<p>Pentru mai multe informatii trimiteti un email la adresa: admin@gmail.com !</p>
+		</div>
+		<div class="p3SpaceStyle">
+		<h3>REZERVARE</h3>
+		<p>50 RON - ZI</p>
+		<p>240 RON - SAPT</p>
+		<p>320 RON - LUNA</p>
+		</div>
+		<div class="butSpaceStyle">
+			<a href="./formrezervare.html"><button type="submit">Rezerva</button></a>
+		</div>
+		</div>
+    </div>
+</body>
+
+</html>

@@ -19,7 +19,7 @@ $(document).ready(function () {
                 $("#warning").text("");
 
                 //aici puneti path-ul catre pagina html homepage(pentru utilzatorii normali din fisierul json) 
-                window.location.href = "";
+                window.location.href = "../pages/clienthomepage.html";
             }
             else {
                 $("#warning").text("Username or password incorrect");

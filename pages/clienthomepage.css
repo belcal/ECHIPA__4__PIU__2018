@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.homePageWrapper{
+    position: relative;
+    width: 100%;
+}
+
+.topBarSytle{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 82px;
+    /* background-color: blue; */
+    background-color:rgba(70,127,215,1);
+}
+
+.underBarStyle{
+    position: absolute;
+    top: 82px;
+    width: 100%;
+    height: 58px;
+    background-color: yellow;
+}
+
+.bannerWrapperStyle{
+    position: relative;
+    top: 140px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.rocketBanner{
+    width: 120px;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: -2px;
+}
+
+.bannerText{
+    line-height: 50%;
+    font-weight: 600;
+    color: white;
+    font-size: 35px;
+    margin-left: 110px;
+    margin-top: -40px;
+
+}
+
+.homeButton{
+    width: 120px;
+    height: 50%;
+    position: absolute;
+    right: 105px;
+    top: 22px;
+    cursor: pointer;
+}
+
+.signOutButtonStyle{
+    width: 110px;
+    height: 50%;
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    background-color: #BA55D3;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.spaceViewStyle{
+    background-color: rgba(70,127,215,1);;
+    height: 80%;
+    width: 250px;
+    position: relative;
+    margin-left: 62%;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: transparent;
+    cursor: pointer;
+
+}
+.dotsStyle{
+    height: 60%;
+    width: 50px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.spaceViewText{
+    position: absolute;
+    top: -9;
+    left: 65px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.searchForm{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.homeImage{
+    
+}
+
+.seachInputStyle{   
+    height: 40px;
+    width: 400px;
+    font-size: 23;
+    border-radius: 8px; 
+}
+
+.searchButton{
+    background-color: rgba(70,127,215,1);
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    position: absolute;
+    right: -115px;
+    top: 0px;
+    cursor: pointer; 
+    font-size: 25;
+    color: white;
+}

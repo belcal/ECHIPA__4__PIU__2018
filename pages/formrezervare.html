@@ -1,0 +1,63 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<SCRIPT src="../scripts/formrezervare.js" type="text/javascript"></SCRIPT>
+<link rel="stylesheet" href="formrezervare.css">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <title>Common space app</title>
+</head>
+
+<body>
+    <div class="homePageWrapper">
+        <div class="topBarSytle">
+            <a href="./clienthomepage.html">
+                <img src="../assets/rocket.svg" class="rocketBanner">
+            </a>
+            <div class="bannerText">
+                WORK&SHARE
+            </div>
+			<a href="./clientmainpage.html">
+				<img src="../assets//home.svg" class="homeButton">
+			</a>
+            <a href="./loginpage.html">
+                <button class="signOutButtonStyle">SIGN OUT</button>
+            </a>
+        </div>
+        <div class="underBarStyle">
+        </div>
+		<div class="coSpaceStyle">
+		<div  class="formSpaceStyle">
+		<h3> FORMULAR DE REZERVARE </h3>
+		<form name="f1">
+			Nume utilizator: <input type="text" id="nume" placeholder="Nume"><br>
+			Email: <input type="text" id="email" placeholder="Email"><br>
+			Data start: <input type="text" id="data" name="data1" placeholder="Exemplu: 01/02/2019"><br>
+			Durata: <select id="formDuration">
+						<option value="1-zi">1 Zi</option>
+						<option value="1-sapt">1 Saptamana</option>
+						<option value="1-luna">1 Luna</option>
+						<option value="6-luni">6 Luni</option>
+						<option value="1-an">1 An</option>
+						<option value="2-ani">2 Ani</option>
+					</select><br>
+			<textarea id="formMsg" cols rows placeholder="Comentarii"></textarea><br>
+			<button type="button" onclick="myFunction()">TRIMITE</button>
+		</form>
+		</div>
+		<div id="form2">
+			<h3> REZERVARE INREGISTRATA! </h3>
+			<h4> Va vom contacta in cel mai scurt timp pentru a discuta detaliile ulterioare rezervarii!</h4>
+			<h4> Daca doriti o mai usoara intrebuintare a spatiului de conlucrare, si anume integrarea unor aplicatii precum
+			Google Calendar sau Facebook, pentru pastrarea evenimentelor sau autentificarea utilizatorilor, trimiti un email 
+			la adresa urmatoare:</h4> 
+			<h2>admin@gmail.com; </h2>
+			<h4>si va vom contacta in cel mai scurt timp posibil! </h4>
+			<h2> Va multumim! </h2>
+		</div>
+		</div>
+    </div>
+</body>
+
+</html>
