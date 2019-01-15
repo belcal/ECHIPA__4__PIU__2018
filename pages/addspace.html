@@ -1,0 +1,75 @@
+<link rel="stylesheet" href="addspace.css">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <title>Common space app</title>
+</head>
+
+<body>
+    <div class="homePageWrapper">
+        <div class="topBarSytle">
+            <a href="./homepage.html">
+                <img src="../assets/rocket.svg" class="rocketBanner">
+            </a>
+            <div class="bannerText">
+                WORK&SHARE
+            </div>
+            <img src="../assets//home.svg" class="homeButton">
+            <a href="./loginpage.html">
+                <button class="signOutButtonStyle">SIGN OUT</button>
+            </a>
+        </div>
+        <div class="underBarStyle">
+			<a href="./spaceoverview.html">
+				<button class="spaceViewStyle ">
+					<img src="../assets//dots.svg" class="dotsStyle">
+					<p class="spaceViewText">Situatia spatiului</p>
+				</button>
+			</a>
+			<a href="./addspace.html">
+				<button class="addSpaceButtonStyle">
+					<p class="newsLetterText">Adaugare spatiu</p>
+				</button>
+			</a>
+			<a href="./history.html">
+				<button class="historyButtonStyle">
+					<p class="newsLetterText">History</p>
+				</button>
+			</a>
+			<a href="./sendnewsletterpage.html">
+				<button class="newsLetterButtonStyle">
+					<img src="../assets/letter.svg" class="letterStyle">
+					<p class="newsLetterText">Send Newsletter</p>
+				</button>
+			</a>
+        </div>
+		<div class="main"> 
+			<div>
+				<form id = "Form">
+				<label for="Oras">Oras:</label>
+				<input id= "Oras" type="text" name="Oras" placeholder="Oras">
+				<label for="Adresa">Adresa:</label>
+				<input id="Adresa" type="text" name="Adresa" placeholder="Adresa">
+				<label for="Orar">Orar:</label>
+				<input type="text" name="Orar" id="Orar" placeholder="Orar">
+				<label for="Telefon">Telefon:</label>
+				<input type="text" name="Telefon" id="Telefon" placeholder="Telefon">
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" placeholder="Email">
+				<input type="checkbox" name="utility" value="Imprimanta"> Imprimanta<br>
+				<input type="checkbox" name="utility" value="WiFi"> WiFi<br>
+				<input type="checkbox" name="utility" value="Sala Conferinte"> Sala Conferinte<br>
+				<input type="checkbox" name="utility" value="Proiector"> Proiector<br>
+				<input type="checkbox" name="utility" value="Zona recreere"> Zona recreere<br>
+				<input type="submit" value="Trimite">
+				<input type="button" value="Reset">
+				</form>
+			</div>
+		</div>		
+	</div>
+</body>
+
+</html>

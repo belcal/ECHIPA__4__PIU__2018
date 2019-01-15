@@ -2,6 +2,8 @@ body {
     width: 100%;
     margin: 0px;
     overflow: hidden;
+	background-image: url("../assets/homepagebanner.jpg"); 
+	background-size: 100% 100%;
 }
 
 .homePageWrapper{
@@ -103,7 +105,7 @@ body {
     color: white;
     font-weight: 500;
 }
-.searchForm{
+.infoLine{
     position: absolute;
     top: 30%;
     left: 35%;
@@ -112,7 +114,7 @@ body {
     
 }
 
-.seachInputStyle{   
+.searchInputStyle{   
     height: 40px;
     width: 400px;
     font-size: 23;
@@ -146,7 +148,7 @@ body {
     height: 80%;
     width: 250px;
     position: relative;
-    margin-left: 62%;
+    margin-left: 45%;
     margin-top: 5px;
     border-radius: 15px;
     border: transparent;
@@ -164,21 +166,87 @@ body {
 	margin-top: 5px;
 }
 
-ul li {
-	height: 100%;
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 0;
+.historyButtonStyle{
+ background-color: rgba(70,127,215,1);
+    height: 80%;
+    width: 250px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: transparent;
+    cursor: pointer;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-	float: right;
-	display: inline;
-	overflow: hidden;
+.addSpaceButtonStyle{
+ background-color: rgba(70,127,215,1);
+    height: 80%;
+    width: 250px;
     position: relative;
-    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.main{
+	width: 70%;
+	padding: 20px 20px;
+	border-radius: 20px;
+    position: absolute;
+	margin-top:200px;
+    top: 30%;
+    left: 30%;
+	overflow-y: auto;
+	height: 300px;
+}
+
+.entry{
+	margin: 10px;
+	margin-bottom:30px;
+	font-size: 40px;
+	background-color: white;
+	width: 720px;
+	cursor: pointer;
+}
+
+input{
+	width: 100%;
+	margin: 8px 0px;
+	padding: 12px 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	font-size: 15px; 
+	font-weight: bold;
+	color: GRAY;
+	letter-spacing: 0.5px;
+}
+
+input[type=submit]{
+	margin-top:30px;
+	width: 30%;
+	float: left;
+}
+
+input[type=button]{
+	margin-top:30px;
+	width: 30%;
+	float: right;
+}
+
+input[type=checkbox]{
+	width: 20%;
+}
+
+label{
+	clear:both;
+	display: block;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.list{
+	
 }

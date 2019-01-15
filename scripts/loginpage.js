@@ -25,7 +25,5 @@ $(document).ready(function () {
                 $("#warning").text("Username or password incorrect");
             }
         }
-
-
     });
 });
