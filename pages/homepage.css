@@ -105,6 +105,17 @@ body {
     font-weight: 500;
     cursor: pointer;
 }
+
+.historyText{
+    position: absolute;
+    top: -9;
+    left: 95px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 .searchForm{
     position: absolute;
     top: 30%;
@@ -153,6 +164,7 @@ body {
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
+	z-index: 9;
 }
 
 .newsLetterButtonStyle{
@@ -165,6 +177,7 @@ body {
     cursor: pointer;
     margin-top: 5px;
     right: -10px;
+	z-index: 9;
 }
 
 .historyButtonStyle{
@@ -193,8 +206,7 @@ body {
     margin-top: 5px;
     right: -575px;
     top: -55;
-    z-index: 10;
-    
+    z-index: 10;  
 }
 
 .buttonText{
@@ -204,23 +216,4 @@ body {
     position: absolute;
     top: -18;
     left: 30px;
-}
-
-ul li {
-	/* height: 100%;
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 0; */
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-	float: right;
-	display: inline;
-	overflow: hidden;
-    position: relative;
-    width: 100%;
 }

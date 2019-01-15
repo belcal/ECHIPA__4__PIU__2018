@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="addspace.css">
-
 <!DOCTYPE html>
 <html>
 
@@ -22,27 +21,29 @@
                 <button class="signOutButtonStyle">SIGN OUT</button>
             </a>
         </div>
-        <div class="underBarStyle">
+		<div class="underBarStyle">
 			<a href="./spaceoverview.html">
 				<button class="spaceViewStyle ">
 					<img src="../assets//dots.svg" class="dotsStyle">
 					<p class="spaceViewText">Situatia spatiului</p>
 				</button>
 			</a>
+			<a href="./sendnewsletterpage.html">
+				<button class="newsLetterButtonStyle">
+					<img src="../assets/letter.svg" class="letterStyle">
+					<p class="newsLetterText">Send Newsletter</p>
+				</button>
+			</a>
 			<a href="./addspace.html">
-				<button class="addSpaceButtonStyle">
+				<button class="buttonStyle">
+					<img src="../assets/add.svg" class="letterStyle">
 					<p class="newsLetterText">Adaugare spatiu</p>
 				</button>
 			</a>
 			<a href="./history.html">
 				<button class="historyButtonStyle">
-					<p class="newsLetterText">History</p>
-				</button>
-			</a>
-			<a href="./sendnewsletterpage.html">
-				<button class="newsLetterButtonStyle">
-					<img src="../assets/letter.svg" class="letterStyle">
-					<p class="newsLetterText">Send Newsletter</p>
+					<img src="../assets/history.svg" class="letterStyle">
+					<p class="historyText">History</p>
 				</button>
 			</a>
         </div>
@@ -64,7 +65,7 @@
 				<input type="checkbox" name="utility" value="Sala Conferinte"> Sala Conferinte<br>
 				<input type="checkbox" name="utility" value="Proiector"> Proiector<br>
 				<input type="checkbox" name="utility" value="Zona recreere"> Zona recreere<br>
-				<input type="submit" value="Trimite">
+				<input type="submit" id="submit" value="Trimite" onclick="alert('Spatiul a fost trimis spre verificare');">
 				<input type="button" value="Reset">
 				</form>
 			</div>

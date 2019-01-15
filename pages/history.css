@@ -87,6 +87,7 @@ body {
     font-size: 20px;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .letterStyle{
@@ -104,7 +105,19 @@ body {
     font-size: 20px;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
+
+.historyText{
+    position: absolute;
+    top: -9;
+    left: 95px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 .infoLine{
     position: absolute;
     top: 30%;
@@ -112,6 +125,20 @@ body {
 }
 .homeImage{
     
+}
+
+.buttonStyle{
+    background-color: rgba(70,127,215,1);
+    height: 80%;
+    width: 250px;
+    position: relative;
+    border-radius: 15px;
+    border: transparent;
+    cursor: pointer;
+    margin-top: 5px;
+    right: -575px;
+    top: -55;
+    z-index: 10;  
 }
 
 .searchInputStyle{   
@@ -148,12 +175,11 @@ body {
     height: 80%;
     width: 250px;
     position: relative;
-    margin-left: 45%;
+    margin-left: 62%;
     margin-top: 5px;
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
-    right: -210px;
 }
 
 .newsLetterButtonStyle{
@@ -165,22 +191,32 @@ body {
     border: transparent;
     cursor: pointer;
     margin-top: 5px;
-    top: -55px;
-    right: -300px;
+    right: -10px;
 }
 
+
 .historyButtonStyle{
- background-color: rgba(70,127,215,1);
-    height: 80%;
-    width: 250px;
-    position: relative;
-    margin-left: 0px;
-    margin-top: 5px;
-    border-radius: 15px;
-    border: transparent;
-    cursor: pointer;
-    top: -54px;
-    right: -285px;
+    background-color: rgba(70,127,215,1);
+       height: 80%;
+       width: 250px;
+       position: relative;
+       margin-left: 0px;
+       margin-top: 0px;
+       border-radius: 15px;
+       border: transparent;
+       cursor: pointer;
+       top: -55px;
+       right: -50px;
+       z-index: 9;
+}
+
+.buttonText{
+    font-weight: 500;
+    color: white;
+    font-size: 25;
+    position: absolute;
+    top: -18;
+    left: 30px;
 }
 
 .addSpaceButtonStyle{

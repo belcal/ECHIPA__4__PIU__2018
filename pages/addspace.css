@@ -21,6 +21,17 @@ body {
     background-color:rgba(70,127,215,1);
 }
 
+.historyText{
+    position: absolute;
+    top: -9;
+    left: 95px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
 .underBarStyle{
     position: absolute;
     top: 82px;
@@ -88,6 +99,7 @@ body {
     font-size: 20px;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .letterStyle{
@@ -105,6 +117,7 @@ body {
     font-size: 20px;
     color: white;
     font-weight: 500;
+	cursor: pointer;
 }
 .infoLine{
     position: absolute;
@@ -149,13 +162,11 @@ body {
     height: 80%;
     width: 250px;
     position: relative;
-    margin-left: 45%;
+    margin-left: 62%;
     margin-top: 5px;
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
-    right: -205px;
-    
 }
 
 .newsLetterButtonStyle{
@@ -167,23 +178,36 @@ body {
     border: transparent;
     cursor: pointer;
     margin-top: 5px;
-    right: -295px;
-    top: -55;
-    
+    right: -10px;
 }
 
 .historyButtonStyle{
- background-color: rgba(70,127,215,1);
+    background-color: rgba(70,127,215,1);
+       height: 80%;
+       width: 250px;
+       position: relative;
+       margin-left: 0px;
+       margin-top: 0px;
+       border-radius: 15px;
+       border: transparent;
+       cursor: pointer;
+       top: -55px;
+       right: -50px;
+       z-index: 9;
+}
+
+.buttonStyle{
+    background-color: rgba(70,127,215,1);
     height: 80%;
     width: 250px;
     position: relative;
-    margin-left: 0px;
-    margin-top: 0px;
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
-    top: -55px;
-    right: -280px;
+    margin-top: 5px;
+    right: -575px;
+    top: -55;
+    z-index: 10;  
 }
 
 .addSpaceButtonStyle{

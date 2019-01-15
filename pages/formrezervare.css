@@ -122,25 +122,34 @@ body {
 	margin-top: 150px;
 	margin-left: 30px;
 	width: 40%;
-	height: 490px;
+	height: 500px;
 	background-color: #BA55D3;
 	border-radius: 8px;
     border: solid 2px black;
 }
 
 .formSpaceStyle input[type=text], #formDuration, #formMsg, button[type=submit]{
-	padding: 5px;
-	margin: 10px;
+	padding: 10px 10px 0px 10px;
+	margin: 10px 10px 0px 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
+}
+
+.formSpaceStyle h5{
+	margin: 0px;
+	padding: 0px 3px;
+	color: red;
+	visibility: hidden;
 }
 
 .formSpaceStyle #formMsg{
 	width: 75%;
 	height: 100px;
+	margin-bottom: 0px;
 }
 
 .formSpaceStyle button[type=button]{
+	margin-top: 20px;
 	border-radius: 8px;
     border: solid 3px black;
 	background-color: #BA55D3;

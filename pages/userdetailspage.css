@@ -1,5 +1,7 @@
 .userProfile{
     text-align: center;
+	position: relative;
+    top: -190;
 }
 
 body{
