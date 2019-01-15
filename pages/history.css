@@ -153,6 +153,7 @@ body {
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
+    right: -210px;
 }
 
 .newsLetterButtonStyle{
@@ -163,7 +164,9 @@ body {
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
-	margin-top: 5px;
+    margin-top: 5px;
+    top: -55px;
+    right: -300px;
 }
 
 .historyButtonStyle{
@@ -172,10 +175,12 @@ body {
     width: 250px;
     position: relative;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
+    top: -54px;
+    right: -285px;
 }
 
 .addSpaceButtonStyle{
@@ -188,6 +193,7 @@ body {
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
+    right: -225px;
 }
 
 .main{

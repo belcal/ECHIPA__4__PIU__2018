@@ -3,7 +3,8 @@ body {
     margin: 0px;
     overflow: hidden;
 	background-image: url("../assets/homepagebanner.jpg"); 
-	background-size: 100% 100%;
+    background-size: 100% 100%;
+    overflow: scroll;
 }
 
 .homePageWrapper{
@@ -153,6 +154,8 @@ body {
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
+    right: -205px;
+    
 }
 
 .newsLetterButtonStyle{
@@ -163,7 +166,10 @@ body {
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
-	margin-top: 5px;
+    margin-top: 5px;
+    right: -295px;
+    top: -55;
+    
 }
 
 .historyButtonStyle{
@@ -176,6 +182,8 @@ body {
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
+    top: -55px;
+    right: -280px;
 }
 
 .addSpaceButtonStyle{
@@ -188,6 +196,7 @@ body {
     border-radius: 15px;
     border: transparent;
     cursor: pointer;
+    right: -220px;
 }
 
 .main{
@@ -195,9 +204,11 @@ body {
 	padding: 20px 20px;
 	border-radius: 20px;
     position: absolute;
-	margin-top:200px;
+	margin-top:130px;
     top: 30%;
     left: 10%;
+    max-height: 30%;
+
 }
 
 input{
@@ -206,20 +217,20 @@ input{
 	padding: 12px 10px;
 	border-radius: 10px;
 	box-sizing: border-box;
-	font-size: 15px; 
+	font-size: 10px; 
 	font-weight: bold;
 	color: GRAY;
 	letter-spacing: 0.5px;
 }
 
 input[type=submit]{
-	margin-top:30px;
+	margin-top:10px;
 	width: 30%;
 	float: left;
 }
 
 input[type=button]{
-	margin-top:30px;
+	margin-top:10px;
 	width: 30%;
 	float: right;
 }
@@ -232,10 +243,14 @@ label{
 	clear:both;
 	display: block;
 	color: black;
-	font-size: 20px;
+	font-size: 10px;
 	font-weight: bold;
 }
 
 .list{
 	
+}
+
+.textCheck{
+    
 }
