@@ -1,5 +1,6 @@
 body {
     background-image: url("../assets/connections.jpg");
+    overflow: hidden;
 }
 
 form {
