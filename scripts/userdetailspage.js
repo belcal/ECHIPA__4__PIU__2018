@@ -9,17 +9,22 @@ $(document).ready(function () {
             break;
         }
     }
-    
+
     $("#profpic").attr("src", "../assets/" + userDetail.pic);
     $("#nameField").text(userDetail.realName);
     $("#userField").text(userDetail.username);
     $("#phone").text(userDetail.phone);
     $("#mail").text(userDetail.email);
 
-    $("#reportButton").click(function(){
+    $("#reportButton").click(function () {
         $(".reportContainer").css("display", "inline");
-        $("#sendButt").click(function(){
-            $(".reportContainer").css("display", "none");
-        })
+        $("#sendButt").click(function () {
+            if ($("#raportText").val().length > 0) {
+                $(".reportContainer").css("display", "none");
+                alert("Raportul a fost trimis si va fi revizuit de o persoana autorizata");
+            } else {
+                $("#raportText").prop('placeholder', "Raportul nu poate fi trimis gol!!!");
+            }
+        });
     });
 });
